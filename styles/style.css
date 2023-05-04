@@ -1,0 +1,76 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-3d {
+  transition: 0.5s;
+}
+
+.text-3d:hover {
+  text-shadow: 0 1px 0 #303030, 0 2px 0 #303030, 0 6px 0 #303030,
+    0 4px 0 #303030, 0 6px 0 #303030, 0 6px 0 #303030, 0 6px 0 #303030,
+    0 6px 0 #303030, 0 6px 0 #303030, 0 6px 0 #303030, 0 6px 0 #303030,
+    0 6px 0 #303030, 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.text-bright {
+  transition: text-shadow 0.3s;
+}
+
+.text-bright:hover {
+  text-shadow: 0px 5px 3px #a9cfcd;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.son {
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+.background-brand-blue {
+  background-color: #157ba0;
+}
+
+.text-brand-blue {
+  color: #157ba0;
+}
+
+.color-brand-mustard {
+  color: #ca895f;
+}
+
+.check:hover {
+  background-color: #ca895f;
+}
+
+.caja:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.caja:hover > .left-side-card {
+  box-shadow: rgba(8, 255, 0, 0.4) -5px 5px, rgba(8, 255, 0, 0.3) -10px 10px,
+    rgba(8, 255, 0, 0.2) -15px 15px, rgba(8, 255, 0, 0.1) -20px 20px,
+    rgba(8, 255, 0, 0.05) -25px 25px;
+}
+
+.caja:hover > .center-side-card {
+  box-shadow: rgba(8, 255, 0, 0.4) 0px 5px, rgba(8, 255, 0, 0.3) 0px 10px,
+    rgba(8, 255, 0, 0.2) 0px 15px, rgba(8, 255, 0, 0.1) 0px 20px,
+    rgba(8, 255, 0, 0.05) 0px 25px;
+}
+
+.caja:hover > .right-side-card {
+  box-shadow: rgba(8, 255, 0, 0.4) 5px 5px, rgba(8, 255, 0, 0.3) 10px 10px,
+    rgba(8, 255, 0, 0.2) 15px 15px, rgba(8, 255, 0, 0.1) 20px 20px,
+    rgba(8, 255, 0, 0.05) 25px 25px;
+}
